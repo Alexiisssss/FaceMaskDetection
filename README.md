@@ -19,8 +19,11 @@ Face Mask Detection
 Установка
 
 1.Клонируйте репозиторий с помощью команды:
+
 git clone https://github.com/Alexiisssss/FaceMaskDetection.git
+
 2.Установите необходимые зависимости:
+
 -opencv-python==4.5.3
 -numpy==1.21.2
 -tensorflow==2.6.0
@@ -30,12 +33,18 @@ git clone https://github.com/Alexiisssss/FaceMaskDetection.git
 Использование
 
 1.Запустите приложение, чтобы обучить модель:
+
 python main.py train
+
 2.Запустите приложение для тестирования модели:
+
 python main.py test
+
 3.Запустите камеру для обнаружения масок в реальном времени:
+
 python main.py camera
 
 
 Вклад
+
 Проект открыт для вклада и улучшения. Не стесняйтесь отправлять pull request с предложенными изменениями.
