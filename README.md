@@ -14,7 +14,13 @@ git clone https://github.com/Alexiisssss/FaceMaskDetection.git
 
 2.Установите необходимые зависимости:
 
--opencv-python==4.5.3 -numpy==1.21.2 -tensorflow==2.6.0 -scikit-learn==0.24.2
+-opencv-python==4.5.3 
+
+-numpy==1.21.2 
+
+-tensorflow==2.6.0
+
+-scikit-learn==0.24.2
 
 # Использование
 1.Запустите приложение, чтобы обучить модель:
