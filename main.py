@@ -5,7 +5,7 @@ from src.app import App
 from src.camera import Camera
 
 def main():
-    data_loader = DataLoader(with_mask_dir='dataset/yes', without_mask_dir='dataset/no')
+    data_loader = DataLoader(with_mask_dir='dataset/with_mask', without_mask_dir='dataset/without_mask')
     model = Model()
     camera = Camera(model=model)
     app = App(data_loader=data_loader, model=model, camera=camera)
